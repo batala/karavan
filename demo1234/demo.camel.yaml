@@ -1,0 +1,16 @@
+- route:
+    id: route-02a2
+    nodePrefixId: route-976
+    from:
+      id: from-bc45
+      uri: timer
+      variableReceive: route:undefined
+      parameters:
+        timerName: test
+        repeatCount: "3"
+        period: "399"
+      steps:
+        - log:
+            id: log-212c
+            message: test
+            logName: testname

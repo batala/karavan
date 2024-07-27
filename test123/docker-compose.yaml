@@ -3,6 +3,6 @@ services:
     image: test123
     restart: always
     ports:
-      - "8081:8085"
+      - "8085:8085"
     networks:
       - karavan

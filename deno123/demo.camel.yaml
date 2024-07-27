@@ -1,0 +1,10 @@
+- route:
+    id: route-df0e
+    nodePrefixId: route-77f
+    from:
+      id: from-0cdb
+      uri: timer
+      steps:
+        - log:
+            id: log-57d3
+            message: ${body}

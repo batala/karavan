@@ -13,4 +13,5 @@
         - log:
             id: log-212c
             message: test
+            loggingLevel: TRACE
             logName: testname

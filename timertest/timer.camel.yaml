@@ -1,0 +1,15 @@
+- route:
+    id: route-e599
+    nodePrefixId: route-2cb
+    from:
+      id: from-b9fe
+      uri: timer
+      parameters:
+        timerName: Timer1
+        repeatCount: "3"
+        delay: "1000"
+        period: "1000"
+      steps:
+        - log:
+            id: log-608b
+            message: Hello world

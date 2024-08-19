@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo "test"
 git config --global credential.helper 'cache --timeout=3600'
 git_credential_fill() {
     echo url=$GIT_REPOSITORY
